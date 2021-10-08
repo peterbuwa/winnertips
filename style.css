@@ -1,0 +1,1923 @@
+			/*container1*/
+
+            *             {
+                box-sizing:border-box;
+				background-color:black;
+                color:white;
+                }
+
+.header-wrapper  {margin:0px; padding:0px;}
+
+ .container1 {
+				
+            padding:0px;
+			margin:0px;
+			top:0px;
+            
+             }
+
+header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:18px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2{margin:auto; overflow:hidden; z-index: 1; background-color:black; display:flex; justify-content:center; position:sticky; top:0px;}
+
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; color:black}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; color:black; }
+.con21, .con23	{display:none;} 
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:10px; color:yellow; text-align:center; background-color:black;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic;  }
+li{ float:left; text-align:center;}
+.links		{width:300px; margin:auto;}
+
+						/*container3*/
+
+.container3 	{background-color:black;  background-size:contain; height:100px; display:flex; justify-content:center; 
+					align-items:center;}
+.image	{width:150px; height:70px; }			 
+
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p {padding:0px; text-align:justify; font-size:14px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; width:100%; border-collapse:collapse; background-color:white;}
+.container5 .table th  {font-size:8px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ font-size:11px; background-color:gray; color:yellow; line-height:10px; padding:5px;}
+		
+
+						/*container6*/
+						
+
+.container6 .table1 {margin:auto; border-collapse:collapse; width:100%;}
+.container6 .table1 th {text-align:center; font-size:9px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:8px; text-align:left;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:16px; text-align:center;}
+.con6 h5 {text-align:center; font-size:16px;}
+.rotate {margin:auto; width:8px; height:8px; padding:2px; border-radius:50%; border-style:dotted; border-width:0 3px 2px 2px;  border-color:gold; animation:peter 0.9s linear infinite;}
+.table1 caption {font-size:20px;}
+.con61 {width:90%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 10s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:15px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-480%);}
+			
+			}			
+			
+			@keyframes peter {
+								0%{transform:rotate(0deg);}
+								100%{transform:rotate(360deg);}
+			
+			}
+						
+						/*container7*/
+.container7	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; line-height:26px; font-size:16px; background-image:url(pitch1.png); margin:0 10px; width:95%; margin:auto;}
+caption 		{font-size:11px; margin-top:20px; background-color:rgba(120,120,120,0.5); color:white;  text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; text-align:center;}						
+.container7 	{ margin:auto;}
+.container7 .table1 	{margin:auto; padding-top:5px; width:90%}
+.container7 .table1 th {text-align:left; font-size:9px; background-color:white; color:black;}
+.container7 .table1 td {background-color:green; color:white; font-size:8px;}
+
+				/*container8*/
+
+.container8   { margin:auto; padding:10px 0;}				
+.container8 .table {border:1px solid gray; margin:auto; }
+.container8 .table th  {font-size:10px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:10px;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.linear				{background-image:linear-gradient(white,white,green); padding:5px; color:black; animation:change 1s infinite; }
+.container9 h1		{font-size:14px;}
+.bitcoin		{font-size:15px; padding-left:3px;}
+.payment		{padding:5px;}
+.container9 .bit-img     {width:13px; height:13px;}
+				
+				/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; text-align:center; font-size:18px; background-color:rgba(120,120,120,0.5); }
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:100%;}
+.table2	th	{text-align:left; font-size:9px; background-color:white; color:black;}
+.table2	td	{background-color:rgb(0,70,0); font-size:8px;}
+.container10 p    {font-size:14px; text-align:center; padding:0 5px;} 
+
+				/* tips meaning */
+
+.review td	{text-transform:capitalize; text-align:center; font-size:12px; background-color:white; color:black;}
+.review th	{font-size:12px;}
+.review		{margin:auto; }
+.bet-review	{padding:10px 0px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:200px; height:50px;  border-radius:5px; padding:5px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px; }
+.con11-1 p{padding:0px; font-size:12px;}
+.con11-1 h1		{font-size:15px; text-align:center;}
+.con11-1 h2, .con11-1 h3  {font-size:13px;}
+
+
+				/*Aside Starts*/
+
+.aside {display:none;}	
+.aside-2	{text-align:center;}		
+.aside-2 h6   {color:yellow; background-color:gray; border-radius:10px;}
+.bet-image	{width:100%; height:50px; background-color:red; margin:auto; width:90%; overflow:hidden;}
+.bet1  {margin:auto;}
+.bet1 img {width:100%; }
+.aside-4 { margin:auto; padding:10px 0;}
+.aside-4 img {width:100%; height:20vh;}
+.aside-5 p {font-size:3vw; color:yellow; text-align:center;}
+.aside-5 img {width:100%;}
+@keyframes change{
+					0%{background-image:linear-gradient(white,white,green);}
+					100%  {background-image:linear-gradient(green,white,white);}
+				}
+				
+@keyframes rotate{
+	0%{transform:rotateY(36deg);}
+	100%{transform:rotateY(360deg);}
+}
+
+
+
+
+
+@media screen and (min-width:234px)
+{
+	header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:23px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+		
+			
+/*container2*/
+						
+.con2{margin:auto; overflow:hidden; background-color:black; display:flex; justify-content:center; position:sticky; top:0px;}
+
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; color:black}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; color:black; }
+.con21, .con23	{display:none;} 
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:13px; color:yellow; text-align:center; background-color:black;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic;  }
+li{ float:left; text-align:center;}
+.links		{width:300px; margin:auto;}
+			
+			
+						/*container3*/
+		
+		.container3 	{background-color:black; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; 
+					 align-content:flex-end;}
+.image	{width:240px; height:90px; }	
+
+						/*container4*/
+		
+.container4 p {padding:0px 10px; font-size:14px;}
+
+							/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; width:100%; border-collapse:collapse; background-color:white;}
+.container5 .table th  {font-size:10px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ font-size:10px; background-color:gray; color:yellow; line-height:10px; padding:5px 0;}
+	
+			/*container6*/
+
+						
+
+.container6 .table1 {margin:auto; border-collapse:collapse; width:100%;}
+.container6 .table1 th {text-align:center; font-size:10px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:11px; text-align:left;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:14px; text-align:center;}
+.container6 .table1 caption  {font-size:20px;}
+.con6 h5 {text-align:center;}
+.rotate {margin:auto; width:8px; height:8px; padding:2px; border-radius:50%; border-style:dotted; border-width:0 3px 2px 2px;  border-color:gold; animation:peter 0.9s linear infinite;}
+.container6	h1 {width:150px; text-align:center; margin:auto;}
+.container6	{padding:10px;}	
+
+.con61 {width:90%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 10s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:15px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-360%);}
+			
+			}	
+
+						/*container7*/
+.container7	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;  background-color:gray; margin:0px; margin:auto;}
+caption 		{font-size:20px; margin-top:20px; background-color:rgba(120,120,120,0.5); color:white;  text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto;}
+.container7 .table1 	{margin:auto; padding-top:5px; width:90%}
+.container7 .table1 th {text-align:left; font-size:10px; background-color:white; color:black;}
+.container7 .table1 td {background-color:green; color:white; font-size:11px;}
+.container7 .vip   {font-size:18px; line-height:20px;}
+
+							/*container8*/
+
+.container8   {margin:auto;}				
+.container8 .table {border:1px solid gray; margin:auto; }
+.container8 .table th  {font-size:10px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:10px;}
+
+					/*container9*/
+.container9	> div	{display:flex; justify-content:center;}
+ 
+.container9 .linear		{background-image:linear-gradient(white,white,green); font-size:15px; padding:5px; color:black; animation:change 1s infinite; }
+.container9 h1		{font-size:12px;}
+.bitcoin		{font-size:13px; padding-left:3px;}
+.payment		{width:98%; height:40px;}
+.container9 .bit-img     {width:15px; height:12px;}
+
+
+					/*container10*/
+
+.con10  {display:flex; justify-content:center;}
+.con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:20px; text-align:center; }
+
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:100%;}
+.table2	th	{text-align:left; font-size:11px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:10px;}
+.container10 p    {font-size:14px; text-align:center; padding:0 5px;} 
+.container10   {margin:auto;}
+
+					/* tips meaning */
+
+.review td	{text-transform:capitalize; text-align:center; font-size:13px; background-color:white; color:black;}
+.review th	{font-size:16px;}
+.review		{margin:auto; }
+.bet-review	{padding:10px 0px;}
+.review caption {margin:10px 0; }
+}
+
+@media screen and (min-width:284px)
+{
+							/*container2*/
+header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:29px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+		
+		
+		/*container2*/
+						
+.con2{margin:auto; overflow:hidden; background-color:black; display:flex; justify-content:center; position:sticky; top:0px;}
+
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; color:black;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; color:black; }
+ 
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:9px; color:yellow; text-align:center; background-color:black;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic;  }
+li{ float:left; text-align:center;}
+.links		{width:300px; margin:auto;}
+						
+.con2{margin:auto; overflow:hidden; background-color:black; display:flex; justify-content:center;  width:100%; position:static;}  
+.con21, .con23	{display:block; font-size:9px; padding:0px; margin:0px; width:22%; text-align:center; line-height:2; vertical-align:center;} 
+.con22   {width:56%;}
+
+						/*container3*/
+		
+.container3 	{background-color:black; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; 
+					 align-content:flex-end;}
+.image	{width:200px; height:80px; margin-top:20px;}
+
+							/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; width:100%; border-collapse:collapse; background-color:white;}
+.container5 .table th  {font-size:10px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ font-size:10px; background-color:gray; color:yellow; line-height:10px; padding:5px 0; white-space:nowrap;}
+	
+
+
+						/*container6*/
+						
+
+.container6 .table1 {margin:auto; border-collapse:collapse; width:100%;}
+.container6 .table1 th {text-align:center; font-size:9px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:9px; text-align:left;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:14px; text-align:center;}
+.con6 h5 {text-align:center; font-size:16px;}
+.rotate {margin:auto; width:8px; height:8px; padding:2px; border-radius:50%; border-style:dotted; border-width:0 3px 2px 2px;  border-color:gold; animation:peter 0.9s linear infinite;}
+
+.con61 {width:90%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 10s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:15px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-390%);}
+			
+			}	
+
+						/*container7*/
+.container7	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:15px; background-color:gray; width:95%; margin:auto;}
+ .table1 .caption 		{font-size:20px; margin-top:20px; background-color:rgba(120,120,120,0.5); color:white;  text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto;}
+.container7 .table1 	{margin:auto; padding-top:5px; width:90%}
+.container7 .table1 th {text-align:left; font-size:9px; background-color:white; color:black;}
+.container7 .table1 td {background-color:green; color:white; font-size:8px;}	
+
+				/*container8*/
+
+.container8   { margin:auto; padding:10px 0;}				
+.container8 .table {border:1px solid gray; margin:auto; margin:0 10px;}
+.container8 .table th  {font-size:10px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:10px; white-space:nowrap;}
+
+	.container-wrapper {display:flex; flex-wrap:row; align-content:space-between;}
+	.content		{width:75%;}
+	.aside			{width:25%; height:70vh; position:sticky; top:0; display:block;}
+	.aside-1 img		{width:100%; height:auto; padding:5px 0; border-radius:5px;}
+	.aside-1	{width:100%; margin:auto;}
+	.container5 {width:90%; margin:auto;}
+	.container7 .vip {width:80%;}
+	.container7 .table1 	{margin:auto; padding-top:10px; width:90%; }
+				/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:13px; white-space:nowrap; line-height:40px; background-color:rgba(120,120,120,0.5); margin:0 5px;}
+.container10 .con10-1	{ margin:auto; margin:0 3px;}
+.table2	{width:100%; }
+.table2	th	{text-align:left; font-size:9px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:8px;}
+.container10 p    {font-size:14px; text-align:center; padding:0 5px;} 
+.table2 caption   {font-size:16px;}
+
+
+				/* tips meaning */
+
+.review td	{text-transform:capitalize; text-align:center; font-size:10px; background-color:white; color:black;}
+.review th	{font-size:12px;}
+.review		{margin:auto; margin:0 5px;}
+.bet-review	{padding:10px 0px;}
+.bet-review caption {font-size:16px; padding:0 1px; width:95%;}
+}
+
+
+
+
+@media screen and (min-width:320px)
+{
+				/*container1*/
+
+*             {
+                box-sizing:border-box;
+				background-color:black;
+                color:white;
+                }
+
+.header-wrapper  {margin:0px; padding:0px;}
+
+ .container1 {
+				
+            padding:0px;
+			margin:0px;
+			top:0px;
+            
+             }
+
+header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:33px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2			{margin:auto; top:0px; overflow:hidden; background-color:black; display:flex; justify-content:center;}
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; font-size:11px;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; font-size:11px;}
+
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:10px; color:yellow; text-align:center; background-color:green;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic;  }
+li{ float:left; }
+.links		{width:300px; margin:auto;}
+						/*container3*/
+
+.container3 	{background-color:black; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; 
+					align-items:center;}
+.image	{width:200px; height:70px; }			 
+
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p {padding:8px 10px; text-align:justify;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; }
+.container5 .table th  {font-size:14px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{font-size:10px; white-space:nowrap;}
+
+						/*container6*/
+						
+.container6	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:20px; width:100%;}
+.container6 .table1 td  {background-color:black; color:white; font-size:11px; text-align:left;}
+
+.con61 {width:90%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 10s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:15px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-400%);}
+			
+			}
+
+
+						/*container7*/
+caption 		{font-size:14px; background-color:white; color:green; padding:2px; text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto; padding:}
+.container7 .table1 	{margin:auto;  padding:5px;}
+.container7 .table1 th {text-align:left; font-size:10px;}
+.container7 .table1 td {background-color:green; color:white; font-size:9px;}
+.container7 .vip  {font-size:18px; width:85%;}
+				/*container8*/
+
+.container8   {padding:10px;}				
+.container8 .table {border:1px solid gray; margin:auto; }
+.container8 .table th  {font-size:12px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:10px; white-space:nowrap;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.linear				{background-image:linear-gradient(white,white,green); padding:5px; color:black; animation:change 1s infinite;}
+.container9 h1		{font-size:14px;}
+.bitcoin		{font-size:14px;}
+.container9 .bit-img     {width:20px; height:15px;}
+				/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.container10 .con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:14px; background-color:gray; padding:0 5px;}
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:97%;}
+.table2	th	{text-align:left; font-size:11px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:10px;}
+.container10 p {font-size:14px; padding:0px 10px;}
+.bet-review		{display:flex; justify-content:center;}
+.table2 caption  {margin:0 10px; font-size:18px;}
+.review td {font-size:12px; line-height:20px;}
+.review th {font-size:14px; line-height:30px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:300px; height:100px; padding:10px; border-radius:20px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px ;width:50vw;  }
+.con11-1 p{padding:0px; }
+.con11-1 h1		{font-size:16px; padding:3px; border-radius:10px;}
+@keyframes change{
+					0%{background-image:linear-gradient(white,white,green);}
+					100%  {background-image:linear-gradient(green,white,white);}
+				}
+				
+@keyframes rotate{
+	0%{transform:rotateY(36deg);}
+	100%{transform:rotateY(360deg);}
+}
+}
+
+
+
+
+
+@media screen and (min-width:400px)
+{
+		/*container1*/
+.container1 header  {font-size:42px; background-color:red;}
+
+				/*container2*/
+				
+.con2 .con21, .con2 .con23	{display:block; font-size:14px; width:25%; text-align:center; display:flex; align-items:center; justify-content:center; white-space:nowrap; font-weight:bold; } 
+.con2 .con22 li a  	{font-size:10px; }
+.con22	{width:50%; text-align:center; }
+.con2 .con22 li a  { text-decoration:none; display:block; text-align:center; font-size:11px; color:yellow;text-align:center; background-color:gray;}
+
+				/*container3*/
+				
+.image		{height:70px; width:250px;}	
+
+				/*container4*/
+				
+.container4 p	{padding:5px 10px; font-size:18px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; width:100%; border-collapse:collapse; background-color:white;}
+.container5 .table th  {font-size:12px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ font-size:13px; background-color:gray; color:yellow; line-height:10px; }
+
+						/*container6*/
+						
+
+.container6 .table1 {margin:auto; border-collapse:collapse; width:100%;}
+.container6 .table1 th {text-align:center; font-size:12px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:12px; text-align:left;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:16px; text-align:center;}
+.con6 h5 {text-align:center; font-size:20px;}
+.rotate {margin:auto; width:10px; height:10px; padding:2px; border-radius:50%; border-style:dotted; border-width:0 3px 2px 2px;  border-color:gold; animation:peter 0.9s linear infinite;}
+.container6 .table1 caption {font-size:25px;}
+
+.con61 {width:90%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 10s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:15px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-260%);}
+			
+			}
+
+						/*container7*/
+.container7	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:13px; background-image:url(pitch1.png); margin:0 10px; width:95%; margin:auto;}
+.container7 .vip {font-size:24px; line-height:30px;}
+caption 		{font-size:11px; margin-top:20px; background-color:rgba(120,120,120,0.5); color:white;  text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; text-align:center;}						
+.container7 	{ margin:auto;}
+.container7 .table1 	{margin:auto; padding-top:5px; width:90%}
+.container7 .table1 th {text-align:left; font-size:12px; background-color:white; color:black;}
+.container7 .table1 td {background-color:green; color:white; font-size:12px;}
+
+				/*container8*/
+
+.container8   { margin:auto; padding:10px 0;}				
+.container8 .table {border:1px solid gray; margin:auto; }
+.container8 .table th  {font-size:12px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:13px;}
+
+				/*container 9*/
+.payment	 {width:95%; height:50px;}	  
+.bitcoin		{font-size:18px;}	
+
+				/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.container10 .con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:20px; background-color:gray; padding:0 5px;}
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:100%; padding:5px;}
+.table2 caption {font-size:25px; }
+.table2	th	{text-align:left; font-size:12px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:12px;}
+.container10 p    {font-size:16px; text-align:center; padding:0 5px;} 
+.container10 #con10-1 {font-size:20px;}
+				/*football*/
+				
+.football-image	{width:350px; height:120px; padding:10px; border-radius:20px;}
+
+.bet-review .review	{width:300px;}
+.review caption   {font-size:22px; margin:auto;}
+.review th {font-size:16px; padding:5px;}
+.review td {font-size:14px; padding:5px;}
+
+				/*football*/
+		
+.con11-1 	{padding:0px 20px;}
+.con11-1 h1	{border-radius:20px;}
+
+}
+
+@media screen and (min-width:420px){
+				/*container1*/
+
+
+.container1 header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:40px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2			{margin:auto; top:0px; overflow:hidden; background-color:black; display:flex; justify-content:center;}
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; font-size:15px; font-weight:bold;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; font-size:15px; font-weight:bold;}
+
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:12px; color:yellow; text-align:center; background-color:green;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic;  }
+li{ float:left; }
+.links		{width:300px; margin:auto;}
+						/*container3*/
+
+.container3 	{background-color:black; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; 
+					align-items:center;}
+.image		{height:80px; width:300px;}				 
+
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p	{padding:5px 10px; font-size:18px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; }
+.container5 .table th  {font-size:14px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ padding-left:5px; font-size:13px;}
+
+					/*container6*/
+						
+
+.container6 .table1 {margin:auto; border-collapse:collapse; width:100%;}
+.container6 .table1 th {text-align:center; font-size:12px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:12px; text-align:left;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:16px; text-align:center;}
+.con6 h5 {text-align:center; font-size:20px;}
+.rotate {margin:auto; width:10px; height:10px; padding:2px; border-radius:50%; border-style:dotted; border-width:0 3px 2px 2px;  border-color:gold; animation:peter 0.9s linear infinite;}
+.container6 .table1 caption {font-size:25px;}
+
+.con61 {width:90%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 12s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:15px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(100%);}
+								100%{transform:translatex(-300%);}
+			
+			}
+
+						/*container7*/
+caption 		{font-size:14px; background-color:white; color:green; padding:2px; text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto; padding:}
+.container7 .table1 	{margin:auto;  padding:5px;}
+.container7 .table1 th {text-align:left; font-size:16px;}
+.container7 .table1 td {background-color:green; color:white; font-size:12px;}
+.container7 h1  {font-size:18px;}
+
+				/*container8*/
+
+.container8   {padding:10px;}				
+.container8 .table {border:1px solid gray; margin:auto; }
+.container8 .table th  {font-size:13px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:13px;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.linear				{background-image:linear-gradient(white,white,green); padding:5px; color:black; animation:change 1s infinite;}
+.container9 h1		{font-size:14px;}
+.bitcoin		{font-size:18px;}
+.payment {width:100%; height:45px;}
+.container9 .bit-img     {width:20px; height:15px;}
+				/*container10*/
+								/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:19px; background-color:rgba(120,120,120,0.5); }
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:100%; padding:5px;}
+.table2 caption {font-size:25px; }
+.table2	th	{text-align:left; font-size:12px;}
+.container10 #con10-1 {font-size:30px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:12px;}
+.container10 p    {font-size:16px; text-align:center; padding:0 10px;} 
+.container10 #con10-1 {font-size:20px;}
+.bet-review .review	{width:300px;}
+.review caption   {font-size:22px; margin:auto;}
+.review th {font-size:16px; padding:5px;}
+.review td {font-size:14px; padding:5px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:300px; height:100px; padding:10px; border-radius:20px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px ;width:50vw;  }
+.con11-1 p{padding:0px; }
+.con11-1 h1		{font-size:17px; padding:3px; border-radius:10px;}	
+.con11-1 h2, .con11-1 h3, .con11-1 p    {font-size:16px;}	
+	
+}
+
+
+@media screen and (min-width:520px){
+				/*container1*/
+
+
+.container1 header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:40px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2			{margin:auto; top:0px; overflow:hidden; background-color:black; display:flex; justify-content:center;}
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; font-size:15px; font-weight:bold;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; font-size:15px; font-weight:bold;}
+
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:12px; color:yellow; text-align:center; background-color:green;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic;  }
+li{ float:left; }
+.links		{width:300px; margin:auto;}
+						/*container3*/
+
+.container3 	{background-color:black; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; 
+					align-items:center; overflow:hidden;}
+.image		{height:85px; width:380px; }				 
+
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p	{padding:5px 10px; font-size:18px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; }
+.container5 .table th  {font-size:15px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ padding:5px; font-size:17px;}
+
+					/*container6*/
+						
+
+.container6 .table1 {margin:auto; border-collapse:collapse; width:100%;}
+.container6 .table1 th {text-align:center; font-size:14px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:14px; text-align:left;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:16px; text-align:center;}
+.con6 h5 {text-align:center; font-size:20px;}
+.rotate {margin:auto; width:10px; height:10px; padding:2px; border-radius:50%; border-style:dotted; border-width:0 3px 2px 2px;  border-color:gold; animation:peter 0.9s linear infinite;}
+.container6 .table1 caption {font-size:25px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-220%);}
+			
+			}
+
+						/*container7*/
+caption 		{font-size:14px; background-color:white; color:green; padding:2px; text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto; padding:}
+.container7 .table1 	{margin:auto;  padding:5px;}
+.container7 .table1 th {text-align:left; font-size:16px;}
+.container7 .table1 td {background-color:green; color:white; font-size:12px;}
+.container7 h1  {font-size:18px;}
+
+				/*container8*/
+
+.container8   {padding:10px;}				
+.container8 .table {border:1px solid gray; margin:auto; }
+.container8 .table th  {font-size:13px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:13px;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.linear				{background-image:linear-gradient(white,white,green); padding:5px; color:black; animation:change 1s infinite;}
+.container9 h1		{font-size:14px;}
+.bitcoin		{font-size:18px;}
+.payment {width:100%; height:45px;}
+.container9 .bit-img     {width:20px; height:15px;}
+				/*container10*/
+								/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:19px; background-color:rgba(120,120,120,0.5); }
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:100%; padding:5px;}
+.table2 caption {font-size:25px; }
+.table2	th	{text-align:left; font-size:14px;}
+.container10 #con10-1 {font-size:30px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:14px;}
+.container10 p    {font-size:16px; text-align:center; padding:0 10px;} 
+.container10 #con10-1 {font-size:20px;}
+.bet-review .review	{width:300px;}
+.review caption   {font-size:22px; margin:auto;}
+.review th {font-size:16px; padding:5px;}
+.review td {font-size:14px; padding:5px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:300px; height:100px; padding:10px; border-radius:20px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px ;width:50vw;  }
+.con11-1 p{padding:0px; }
+.con11-1 h1		{font-size:17px; padding:3px; border-radius:10px;}	
+.con11-1 h2, .con11-1 h3, .con11-1 p    {font-size:16px;}	
+	
+}
+
+
+@media screen and (min-width:620px){
+				/*container1*/
+
+
+.container1 header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:40px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2			{margin:auto; top:0px; overflow:hidden; background-color:black; display:flex; justify-content:center;}
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; font-size:15px; font-weight:bold;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; font-size:15px; font-weight:bold;}
+
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:12px; color:yellow; text-align:center; background-color:green;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic;  }
+li{ float:left; }
+.links		{width:300px; margin:auto;}
+						/*container3*/
+
+.container3 	{background-color:black; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; 
+					align-items:center; overflow:hidden;}
+.image		{height:85px; width:460px; }				 
+
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p	{padding:5px 10px; font-size:18px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; }
+.container5 .table th  {font-size:15px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ padding:5px; font-size:17px;}
+
+					/*container6*/
+						
+
+.container6 .table1 {margin:auto; border-collapse:collapse; width:100%;}
+.container6 .table1 th {text-align:center; font-size:15px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:15px; text-align:left; padding:3px;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:16px; text-align:center; padding:0 15px;}
+.con6 h5 {text-align:center; font-size:20px; padding:0 10px;}
+.rotate {margin:auto; width:13px; height:13px; padding:2px; border-radius:50%; border-style:dotted; border-width:0 3px 2px 2px;  border-color:gold; animation:peter 0.9s linear infinite;}
+.container6 .table1 caption {font-size:25px;}
+
+.con61 {width:85%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 12s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:17px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-220%);}
+			
+			}
+
+						/*container7*/
+caption 		{font-size:14px; background-color:white; color:green; padding:2px; text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto; padding:}
+.container7 .table1 	{margin:auto;  padding:5px;}
+.container7 .table1 th {text-align:left; font-size:15px;}
+.container7 .table1 td {background-color:green; color:white; font-size:15px; padding:3px;}
+.container7 h1  {font-size:18px; }
+
+				/*container8*/
+
+.container8   {padding:10px;}				
+.container8 .table {border:1px solid gray; margin:auto; width:95%}
+.container8 .table th  {font-size:15px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:17px; padding:5px;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.container9 .linear				{background-image:linear-gradient(white,white,green); padding:5px; color:black; font-size:20px; animation:change 1s infinite;}
+.container9 h1		{font-size:14px;}
+.bitcoin		{font-size:18px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.payment {width:100%; height:45px;}
+.container9 .bit-img     {width:20px; height:15px;}
+				
+								/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:19px; background-color:rgba(120,120,120,0.5); }
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:100%; padding:5px;}
+.table2 caption {font-size:25px; }
+.table2	th	{text-align:left; font-size:15px;}
+.container10 #con10-1 {font-size:30px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:15px;padding:3px;}
+.container10 p    {font-size:16px; text-align:center; padding:0 10px;} 
+.container10 #con10-1 {font-size:20px;}
+.bet-review .review	{width:300px;}
+.review caption   {font-size:22px; margin:auto;}
+.review th {font-size:16px; padding:5px;}
+.review td {font-size:14px; padding:5px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:300px; height:100px; padding:10px; border-radius:20px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px ;width:50vw;  }
+.con11-1 p{padding:0px; }
+.con11-1 h1		{font-size:17px; padding:3px; border-radius:10px;}	
+.con11-1 h2, .con11-1 h3, .con11-1 p    {font-size:16px;}	
+	
+}
+
+
+@media screen and (min-width:720px){
+				/*container1*/
+
+
+.container1 header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:50px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2			{margin:auto; top:0px; overflow:hidden; background-color:black; display:flex; justify-content:center;}
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; font-size:16px; font-weight:bold;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; font-size:16px; font-weight:bold;}
+
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:12px; color:yellow; text-align:center; background-color:green; margin-right:5px;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic; font-weight:bold; }
+li{ float:left; }
+.links		{width:300px; margin:auto;}
+						/*container3*/
+
+.container3 	{background-color:black; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; 
+					align-items:center; overflow:hidden;}
+.image		{height:90px; width:530px; }
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p {padding:10px 20px; text-align:justify; font-size:18px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; }
+.container5 .table th  {font-size:18px; text-align:center; background-color:black; color:red; }
+.container5 .table td	{ padding-left:5px; font-size:18px; padding:10px;}
+
+						/*container6*/
+						
+.container6	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:20px; width:100%;}
+.container6 .table1 {margin:auto; border-collapse:collapse; width:90%;}
+.container6 .table1 th {text-align:left; font-size:16px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:16px;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:18px; padding:0 25px;}
+.con6 h5 {text-align:center; font-size:22px; padding:0 30px;}
+
+.con61 {width:75%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 12s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:18px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-210%);}
+			
+			}
+
+						/*container7*/
+caption 		{font-size:18px; background-color:white; color:green; padding:2px; text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto; padding:}
+.container7 .table1 	{margin:auto;  padding:5px;}
+.container7 .table1 th {text-align:left; font-size:16px;}
+.container7 .table1 td {background-color:green; color:white; font-size:16px;}
+.container7 .vip {font-size:22px;}
+
+				/*container8*/
+
+.container8   {padding:10px;}				
+.container8 .table {border:1px solid gray; margin:auto; }
+.container8 .table th  {font-size:18px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:18px; padding:10px;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.container9 .linear	{background-image:linear-gradient(white,white,green); padding:5px; font-size:20px; color:black; animation:change 1s infinite; width:60%;}
+.container9 h1		{font-size:18px; text-align:center;}
+.bitcoin		{font-size:18px;}
+.payment {width:90%; height:70px;}
+.container9 .bit-img     {width:20px; height:15px;}
+				/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.container10 .con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:22px; width:80%; text-align:center; border-radius:20px;}
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:100%; padding:0 10px;}
+.table2 caption {font-size:22px; margin:0px 20px; padding:5px;}
+.table2	th	{text-align:left; font-size:16px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:16px;}
+.container10 p {font-size:18px; padding:0px 30px;}
+.bet-review		{display:flex; justify-content:center;}
+.review {padding:0 10px;}
+.review caption {width:60vw; margin:auto; font-size:16px;}
+.review th {font-size:16px;}
+.review td  {font-size:16px;}
+
+				/*container11*/
+				
+
+.con11-1 .linear {font-size:20px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:300px; height:100px; padding:10px; border-radius:20px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px ;width:50vw;  }
+.con11-1 p{padding:0px; }
+.con11-1 h1		{font-size:17px; padding:3px; border-radius:10px;}	
+.con11-1 h2, .con11-1 h3, .con11-1 p    {font-size:16px;}	
+
+
+.bet-review .review	{width:300px;}
+.review caption   {font-size:22px; margin:auto;}
+.review th {font-size:16px; padding:5px;}
+.review td {font-size:14px; padding:5px;}
+
+					/*aside*/
+					
+.aside-5 p {font-size:2.1vw;}
+	
+}
+
+
+@media screen and (min-width:820px){
+				/*container1*/
+
+
+.container1 header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:50px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2			{margin:auto; top:0px; overflow:hidden; background-color:black; display:flex; justify-content:center;}
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; font-size:16px; font-weight:bold;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; font-size:16px; font-weight:bold;}
+
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:14px; color:yellow; text-align:center; background-color:green; margin-right:5px;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic; font-weight:bold; }
+li{ float:left; }
+.links		{width:300px; margin:auto;}
+						/*container3*/
+
+.container3 	{background-color:white; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; 
+					align-items:center; overflow:hidden;}
+.image		{height:80px; width:600px; }
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p {padding:10px 20px; text-align:justify; font-size:18px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; }
+.container5 .table th  {font-size:18px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ padding-left:5px; font-size:20px;  padding:10px;}
+
+						/*container6*/
+						
+.container6	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:20px; width:100%;}
+.container6 .table1 {margin:auto; border-collapse:collapse; width:90%;}
+.container6 .table1 th {text-align:left; font-size:16px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:16px;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:18px; padding:0 25px;}
+.con6 h5 {text-align:center; font-size:22px; padding:0 30px;}
+
+.con61 {width:75%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 12s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:18px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-200%);}
+			
+			}
+
+						/*container7*/
+caption 		{font-size:18px; background-color:white; color:green; padding:2px; text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto; padding:}
+.container7 .table1 	{margin:auto;  padding:5px;}
+.container7 .table1 th {text-align:left; font-size:16px;}
+.container7 .table1 td {background-color:green; color:white; font-size:16px;}
+.container7 .vip {font-size:22px;}
+
+				/*container8*/
+
+.container8   {padding:10px;}				
+.container8 .table {border:1px solid gray; margin:auto; width:80%; }
+.container8 .table th  {font-size:18px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:19px; padding:5px; padding:5px;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.linear				{background-image:linear-gradient(white,white,green); padding:5px; color:black; animation:change 1s infinite; width:50%;}
+.container9 h1		{font-size:18px; text-align:center; width:40%;}
+.bitcoin		{font-size:22px;}
+.payment {width:90%; height:70px;}
+.container9 .bit-img     {width:30px; height:20px;}
+				/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.container10 .con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:22px; width:70%; text-align:center; border-radius:20px;}
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:100%; padding:0 10px;}
+.table2 caption {font-size:22px; margin:0px 20px; padding:5px;}
+.table2	th	{text-align:left; font-size:16px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:16px;}
+.container10 p {font-size:18px; padding:0px 30px;}
+.bet-review		{display:flex; justify-content:center;}
+.review {padding:0 10px;}
+.review caption {width:60vw; margin:auto; font-size:16px;}
+.review th {font-size:16px;}
+.review td  {font-size:16px;}
+
+				/*container11*/
+				
+.linear {text-align:center; margin:auto; width:60%;}
+.con11-1 .linear {font-size:20px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:300px; height:100px; padding:10px; border-radius:20px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px ;width:50vw;  }
+.con11-1 p{padding:0px; }
+.con11-1 h1		{font-size:17px; padding:3px; border-radius:10px;}	
+.con11-1 h2, .con11-1 h3, .con11-1 p    {font-size:16px;}	
+
+
+
+.bet-review .review	{width:300px;}
+.review caption   {font-size:22px; margin:auto;}
+.review th {font-size:16px; padding:5px;}
+.review td {font-size:14px; padding:5px;}
+					/*aside*/
+					
+.aside-5 p {font-size:2.1vw;}
+	
+}
+
+
+@media screen and (min-width:920px){
+				/*container1*/
+
+
+.container1 header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:60px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2			{margin:auto; top:0px; overflow:hidden; background-color:black; display:flex; justify-content:center;}
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; font-size:16px; font-weight:bold;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; font-size:16px; font-weight:bold;}
+
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:14px; color:yellow; text-align:center; background-color:green; margin-right:5px;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic; font-weight:bold; }
+li{ float:left; }
+.links		{width:300px; margin:auto;}
+						/*container3*/
+
+.container3 	{background-color:black; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; 
+					align-items:center; overflow:hidden;}
+.image		{height:80px; width:700px; }
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p {padding:10px 40px; text-align:justify; font-size:18px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; }
+.container5 .table th  {font-size:18px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ padding-left:5px; font-size:23px;  padding:10px;}
+
+						/*container6*/
+						
+.container6	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:20px; width:100%;}
+.container6 .table1 {margin:auto; border-collapse:collapse; width:90%;}
+.container6 .table1 th {text-align:left; font-size:16px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:16px;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:18px; padding:0 25px;}
+.con6 h5 {text-align:center; font-size:22px; padding:0 30px;}
+
+.con61 {width:75%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 13s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:18px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-170%);}
+			
+			}
+
+						/*container7*/
+caption 		{font-size:18px; background-color:white; color:green; padding:2px; text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto; padding:}
+.container7 .table1 	{margin:auto;  padding:5px;}
+.container7 .table1 th {text-align:left; font-size:16px;}
+.container7 .table1 td {background-color:green; color:white; font-size:16px;}
+.container7 .vip {font-size:30px;}
+
+				/*container8*/
+
+.container8   {padding:10px;}				
+.container8 .table {border:1px solid gray; margin:auto; width:80%; }
+.container8 .table th  {font-size:18px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:23px; padding:5px; padding:5px;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.linear				{background-image:linear-gradient(white,white,green); padding:5px; color:black; animation:change 1s infinite; width:50%;}
+.container9 h1		{font-size:18px; text-align:center; width:40%;}
+.bitcoin		{font-size:22px;}
+.payment {width:90%; height:70px;}
+.container9 .bit-img     {width:30px; height:20px;}
+				/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.container10 .con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:22px; width:70%; text-align:center; border-radius:20px;}
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:100%; padding:0 10px;}
+.table2 caption {font-size:22px; margin:0px 20px; padding:5px;}
+.table2	th	{text-align:left; font-size:16px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:16px;}
+.container10 p {font-size:18px; padding:0px 30px;}
+.bet-review		{display:flex; justify-content:center;}
+.review {padding:0 10px;}
+.review caption {width:60vw; margin:auto; font-size:16px;}
+.review th {font-size:16px;}
+.review td  {font-size:16px;}
+
+				/*container11*/
+				
+.linear {text-align:center; margin:auto; width:60%;}
+.con11-1 .linear {font-size:20px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:300px; height:100px; padding:10px; border-radius:20px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px ;width:50vw;  }
+.con11-1 p{padding:0px; }
+.con11-1 h1		{font-size:17px; padding:3px; border-radius:10px;}	
+.con11-1 h2, .con11-1 h3, .con11-1 p    {font-size:16px;}	
+
+
+
+.bet-review .review	{width:300px;}
+.review caption   {font-size:22px; margin:auto;}
+.review th {font-size:16px; padding:5px;}
+.review td {font-size:14px; padding:5px;}
+					/*aside*/
+					
+.aside-5 p {font-size:2.1vw;}
+	
+}
+
+
+@media screen and (min-width:1020px){
+				/*container1*/
+
+
+.container1 header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:60px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2			{margin:auto; top:0px; overflow:hidden; background-color:black; display:flex; justify-content:center;}
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; font-size:16px; font-weight:bold;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; font-size:16px; font-weight:bold;}
+
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:14px; color:yellow; text-align:center; background-color:green; margin-right:5px;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic; font-weight:bold; }
+li{ float:left; }
+.links		{width:300px; margin:auto;}
+						/*container3*/
+
+.container3 	{background-color:black; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; 
+					align-items:center; overflow:hidden;}
+.image		{height:80px; width:700px; }
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p {padding:10px 40px; text-align:justify; font-size:18px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; }
+.container5 .table th  {font-size:18px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ padding-left:5px; font-size:23px;  padding:10px;}
+
+						/*container6*/
+						
+.container6	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:20px; width:100%;}
+.container6 .table1 {margin:auto; border-collapse:collapse; width:90%;}
+.container6 .table1 th {text-align:left; font-size:16px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:16px;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:18px; padding:0 25px;}
+.con6 h5 {text-align:center; font-size:22px; padding:0 30px;}
+
+.con61 {width:75%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 15s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:18px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-150%);}
+			
+			}
+
+						/*container7*/
+caption 		{font-size:18px; background-color:white; color:green; padding:2px; text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto; padding:}
+.container7 .table1 	{margin:auto;  padding:5px;}
+.container7 .table1 th {text-align:left; font-size:16px;}
+.container7 .table1 td {background-color:green; color:white; font-size:16px;}
+.container7 .vip {font-size:30px;}
+
+				/*container8*/
+
+.container8   {padding:10px;}				
+.container8 .table {border:1px solid gray; margin:auto; width:80%; }
+.container8 .table th  {font-size:18px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:23px; padding:5px; padding:5px;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.linear				{background-image:linear-gradient(white,white,green); padding:5px; color:black; animation:change 1s infinite; width:50%;}
+.container9 h1		{font-size:18px; text-align:center; width:40%;}
+.bitcoin		{font-size:22px;}
+.payment {width:90%; height:70px;}
+.container9 .bit-img     {width:30px; height:20px;}
+				/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.container10 .con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:22px; width:70%; text-align:center; border-radius:20px;}
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:100%; padding:0 10px;}
+.table2 caption {font-size:22px; margin:0px 20px; padding:5px;}
+.table2	th	{text-align:left; font-size:16px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:16px;}
+.container10 p {font-size:18px; padding:0px 30px;}
+.bet-review		{display:flex; justify-content:center;}
+.review {padding:0 10px;}
+.review caption {width:60vw; margin:auto; font-size:16px;}
+.review th {font-size:16px;}
+.review td  {font-size:16px;}
+
+				/*container11*/
+				
+.linear {text-align:center; margin:auto; width:60%;}
+.con11-1 .linear {font-size:20px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:300px; height:100px; padding:10px; border-radius:20px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px ;width:50vw;  }
+.con11-1 p{padding:0px; }
+.con11-1 h1		{font-size:17px; padding:3px; border-radius:10px;}	
+.con11-1 h2, .con11-1 h3, .con11-1 p    {font-size:16px;}	
+
+
+.bet-review .review	{width:300px;}
+.review caption   {font-size:22px; margin:auto;}
+.review th {font-size:16px; padding:5px;}
+.review td {font-size:14px; padding:5px;}
+
+					/*aside*/
+					
+.aside-5 p {font-size:2.1vw;}
+	
+}
+
+
+
+@media screen and (min-width:1120px){
+				/*container1*/
+
+
+.container1 header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:60px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2			{margin:auto; top:0px; overflow:hidden; background-color:black; display:flex; justify-content:center;}
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; font-size:16px; font-weight:bold;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; font-size:16px; font-weight:bold;}
+
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:14px; color:yellow; text-align:center; background-color:green; margin-right:5px;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic; font-weight:bold; }
+li{ float:left; }
+.links		{width:300px; margin:auto;}
+						/*container3*/
+
+.container3 	{background-color:black; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; 
+					align-items:center; overflow:hidden;}
+.image		{height:80px; width:700px; }
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p {padding:10px 40px; text-align:justify; font-size:18px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; }
+.container5 .table th  {font-size:18px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ padding-left:5px; font-size:23px;  padding:10px;}
+
+						/*container6*/
+						
+.container6	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:20px; width:100%;}
+.container6 .table1 {margin:auto; border-collapse:collapse; width:90%;}
+.container6 .table1 th {text-align:left; font-size:16px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:16px;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:18px; padding:0 25px;}
+.con6 h5 {text-align:center; font-size:22px; padding:0 30px;}
+
+.con61 {width:75%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 13s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:18px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-180%);}
+
+						/*container7*/
+caption 		{font-size:18px; background-color:white; color:green; padding:2px; text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto; padding:}
+.container7 .table1 	{margin:auto;  padding:5px;}
+.container7 .table1 th {text-align:left; font-size:16px;}
+.container7 .table1 td {background-color:green; color:white; font-size:16px;}
+.container7 .vip {font-size:30px;}
+
+				/*container8*/
+
+.container8   {padding:10px;}				
+.container8 .table {border:1px solid gray; margin:auto; width:80%; }
+.container8 .table th  {font-size:18px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:23px; padding:5px; padding:5px;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.linear				{background-image:linear-gradient(white,white,green); padding:5px; color:black; animation:change 1s infinite; width:50%;}
+.container9 h1		{font-size:18px; text-align:center; width:40%;}
+.bitcoin		{font-size:22px;}
+.payment {width:90%; height:70px;}
+.container9 .bit-img     {width:30px; height:20px;}
+				/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.container10 .con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:22px; width:70%; text-align:center; border-radius:20px;}
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:100%; padding:0 10px;}
+.table2 caption {font-size:22px; margin:0px 20px; padding:5px;}
+.table2	th	{text-align:left; font-size:16px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:16px;}
+.container10 p {font-size:18px; padding:0px 30px;}
+.bet-review		{display:flex; justify-content:center;}
+.review {padding:0 10px;}
+.review caption {width:60vw; margin:auto; font-size:16px;}
+.review th {font-size:16px;}
+.review td  {font-size:16px;}
+
+				/*container11*/
+				
+.linear {text-align:center; margin:auto; width:60%;}
+.con11-1 .linear {font-size:20px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:300px; height:100px; padding:10px; border-radius:20px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px ;width:50vw;  }
+.con11-1 p{padding:0px; }
+.con11-1 h1		{font-size:17px; padding:3px; border-radius:10px;}	
+.con11-1 h2, .con11-1 h3, .con11-1 p    {font-size:16px;}	
+
+
+.bet-review .review	{width:300px;}
+.review caption   {font-size:22px; margin:auto;}
+.review th {font-size:16px; padding:5px;}
+.review td {font-size:14px; padding:5px;}
+
+					/*aside*/
+					
+.aside-5 p {font-size:2.1vw;}
+	
+}
+
+
+@media screen and (min-width:1120px){
+				/*container1*/
+
+
+.container1 header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:60px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2			{margin:auto; top:0px; overflow:hidden; background-color:black; display:flex; justify-content:center;}
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; font-size:18px; font-weight:bold; padding:0;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; font-size:18px; font-weight:bold;}
+
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:14px; color:yellow; text-align:center; background-color:green; margin-right:5px;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic; font-weight:bold; }
+li{ float:left; }
+.links		{width:300px; margin:auto;}
+						/*container3*/
+
+.container3 	{ background-color:black; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; align-content:center; margin:0 10px; 
+					align-items:center;}
+.image	{width:400px; height:90px; }			 
+.container-wrapper   {width:80%; margin:auto;}
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p {padding:10px 40px; text-align:justify; font-size:20px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; width:80%;}
+.container5 .table th  {font-size:18px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ padding-left:5px; font-size:22px; padding:10px;}
+
+						/*container6*/
+						
+.container6	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:20px; width:100%;}
+.container6 .table1 {margin:auto; border-collapse:collapse; width:80%;}
+.container6 .table1 th {text-align:left; font-size:16px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:16px;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:20px; padding:0 35px;}
+.con6 h5 {text-align:center; font-size:28px; padding:0 35px;}
+
+						/*container7*/
+caption 		{font-size:18px; background-color:white; color:green; padding:2px; text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto; padding:}
+.container7 .table1 	{margin:auto;  padding:5px; width:85%;}
+.container7 .table1 th {text-align:left; font-size:16px;}
+.container7 .table1 td {background-color:green; color:white; font-size:16px;}
+.container7 .vip {font-size:32px; border-radius:20px; width:60%;}
+
+				/*container8*/
+
+.container8   {padding:10px;}				
+.container8 .table {border:1px solid gray; margin:auto; width:75%; }
+.container8 .table th  {font-size:18px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:22px; padding:5px; padding:5px;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.linear				{background-image:linear-gradient(white,white,green); padding:5px; color:black; animation:change 1s infinite; width:50%;}
+.container9 h1		{font-size:18px; text-align:center; width:40%;}
+.bitcoin		{font-size:26px;}
+.payment {width:90%; height:70px;}
+.container9 .bit-img     {width:30px; height:20px;}
+				/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.container10 .con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:32px; width:75%; text-align:center; border-radius:20px;}
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:90%; padding:0 30px; margin:auto;}
+.table2 caption {font-size:22px; margin:0px 20px; padding:5px;}
+.table2	th	{text-align:left; font-size:16px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:16px;}
+.container10 p {font-size:20px; padding:0px 50px;}
+.bet-review		{display:flex; justify-content:center;}
+ .review {padding:0 10px;}
+
+.review caption {width:50vw; margin:auto; font-size:29px;}
+.review th {font-size:16px;}
+.review td  {font-size:16px;}
+
+				/*container11*/
+				
+.linear {text-align:center; margin:auto; width:60%;}
+.con11-1 .linear {font-size:20px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:300px; height:100px; padding:10px; border-radius:20px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px ;width:50vw;  }
+.con11-1 p{padding:0px; }
+.con11-1 h1		{font-size:17px; padding:3px; border-radius:10px;}	
+.con11-1 h2, .con11-1 h3, .con11-1 p    {font-size:16px;}	
+
+					/*aside*/
+					
+.aside-5 p {font-size:2.1vw;}
+	
+}
+
+@media screen and (min-width:1220px){
+.container-wrapper {width:80%; margin:auto;}	
+/*container1*/
+
+
+.container1 header {
+		
+		text-align:center;  background-image:linear-gradient(to right, black, white, white, black); color:black;
+		font-size:60px;
+		font-family:sofia;
+		color:red;
+		margin:0px;
+		padding:5px;
+		}
+	
+
+						/*container2*/
+						
+.con2			{margin:auto; top:0px; overflow:hidden; background-color:black; display:flex; justify-content:center;}
+.con2 .con21,.con2 .con22,.con2 .con23	{overflow:hidden;}
+.con2 .con21	{background-color:yellow; font-size:18px; font-weight:bold; padding:0;}
+.con22		{display:flex; justify-content:center; background-color:black;}
+.con2 .con23	{background-color:yellow; font-size:18px; font-weight:bold;}
+
+.con2 .con22 li a  { text-decoration:none; display:block; padding:5px ;  font-size:14px; color:yellow; text-align:center; background-color:green; margin-right:5px;}
+ ul {list-style-type:none;  margin:0; overflow:hidden; text-align:center;  background-color:black; padding:0px;}
+.con22 ul li a:hover {background-color:yellow; color:black; font-style:italic; font-weight:bold; }
+li{ float:left; }
+.links		{width:300px; margin:auto;}
+						/*container3*/
+
+.container3 	{ background-color:white; background-image:url("imagesw.jpg"); background-size:contain; height:100px; display:flex; justify-content:center; align-content:center; margin:0 10px; 
+					align-items:center;}
+.image	{width:400px; height:90px; }			 
+.container-wrapper   {width:80%; margin:auto;}
+
+
+						/*container4*/
+
+.container4 {text-align:center;}						
+.container4 p {padding:10px 40px; text-align:justify; font-size:20px;}
+
+						/*container5*/
+						
+.container5 .table {border:1px solid gray; margin:auto;  border-radius:10px; width:80%;}
+.container5 .table th  {font-size:18px; text-align:center; background-color:white; color:red; }
+.container5 .table td	{ padding-left:5px; font-size:22px; padding:10px;}
+
+						/*container6*/
+						
+.container6	h1	{text-align:center;  text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:20px; width:100%;}
+.container6 .table1 {margin:auto; border-collapse:collapse; width:80%;}
+.container6 .table1 th {text-align:left; font-size:16px; background-color:white; color:black;}
+.container6 .table1 td  {background-color:black; color:white; font-size:16px;}
+.container6 .table1 td, .container6 .table1 th {border:1px solid gray;}
+.con6 p    {font-size:20px; padding:0 35px;}
+.con6 h5 {text-align:center; font-size:28px; padding:0 35px;}
+
+.con61 {width:75%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 13s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:18px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-160%);}
+
+						/*container7*/
+caption 		{font-size:18px; background-color:white; color:green; padding:2px; text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;}						
+.container7 	{ margin:auto; padding:}
+.container7 .table1 	{margin:auto;  padding:5px; width:85%;}
+.container7 .table1 th {text-align:left; font-size:16px;}
+.container7 .table1 td {background-color:green; color:white; font-size:16px;}
+.container7 .vip {font-size:32px; border-radius:20px; width:60%;}
+
+				/*container8*/
+
+.container8   {padding:10px;}				
+.container8 .table {border:1px solid gray; margin:auto; width:75%; }
+.container8 .table th  {font-size:18px; text-align:center; background-color:white; color:red;}
+.container8 .table td	{font-size:22px; padding:5px; padding:5px;}
+
+				/*container9*/
+				
+.container9	> div	{display:flex; justify-content:center;}
+.linear				{background-image:linear-gradient(white,white,green); padding:5px; color:black; animation:change 1s infinite; width:50%;}
+.container9 h1		{font-size:18px; text-align:center; width:40%;}
+.bitcoin		{font-size:26px;}
+.payment {width:90%; height:70px;}
+.container9 .bit-img     {width:30px; height:20px;}
+				/*container10*/
+				
+.con10  {display:flex; justify-content:center;}
+.container10 .con10 h2  	{text-shadow:-1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; font-size:32px; width:75%; text-align:center; border-radius:20px;}
+.container10 .con10-1	{ margin:auto;}
+.table2	{width:90%; padding:0 30px; margin:auto;}
+.table2 caption {font-size:22px; margin:0px 20px; padding:5px;}
+.table2	th	{text-align:left; font-size:16px;}
+.table2	td	{background-color:rgb(0,70,0); font-size:16px;}
+.container10 p {font-size:20px; padding:0px 50px;}
+.bet-review		{display:flex; justify-content:center;}
+ .review {padding:0 10px;}
+
+.review caption {width:50vw; margin:auto; font-size:29px;}
+.review th {font-size:16px;}
+.review td  {font-size:16px;}
+
+				/*container11*/
+				
+.linear {text-align:center; margin:auto; width:60%;}
+.con11-1 .linear {font-size:20px;}
+
+				/*football*/
+
+.football	{display:flex; justify-content:center;}				
+.football-image	{width:300px; height:100px; padding:10px; border-radius:20px;}
+.con11		{padding:0px; margin:0px;}
+.con11-1		{margin:auto;  text-align:center; padding:0px ;width:50vw;  }
+.con11-1 p{padding:0px; }
+.con11-1 h1		{font-size:17px; padding:3px; border-radius:10px;}	
+.con11-1 h2, .con11-1 h3, .con11-1 p    {font-size:16px;}	
+
+					/*aside*/
+					
+.aside-5 p {font-size:2.1vw;}	
+}
+
+@media screen and (min-width:1320){
+	.con61 {width:70%; border:1px dotted gray; overflow:hidden; margin:auto; margin-top:10px;}
+.con62  {white-space:nowrap; animation:left 10s linear infinite;  vertical-align:center;   color:yellow; text-transform:capitalize; font-size:18px; letter-spacing:1px;}
+
+@keyframes left {
+								0%{transform:translatex(120%);}
+								100%{transform:translatex(-60%);}
+			
+			}
+}
